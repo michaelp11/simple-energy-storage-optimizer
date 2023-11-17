@@ -91,7 +91,7 @@ class StorageSelectionProblem:
         scenario_watt_production_per_module = scenario_watt_production * self.problem_configuration.area_per_module_in_m2
         scenario_watt_production_per_module = np.minimum(scenario_watt_production_per_module, self.problem_configuration.max_watts_per_module)
 
-        # we use on avg 3kw with standard deviation of 1kw
+        # we use on avg 10kw with standard deviation of 2kw
         scenario_watt_usage = np.random.normal(10000, 2000, self.problem_configuration.number_of_days * 24)
         scenario_watt_usage = np.maximum(scenario_watt_usage, 0)
 
