@@ -36,9 +36,3 @@ if __name__ == '__main__':
     print('Modules:', problem.base_variables['numberOfModules'].solution_value())
 
     print('Storage:', problem.base_variables['sizeOfStorageInKwh'].solution_value())
-
-    # for scenario, variables in problem.scenario_variables.items():
-    #     print('Scenario', scenario)
-    #     for timeslot, variables in variables.items():
-    #         for name, variable in variables.items():
-    #             print(variable, variable.solution_value())
