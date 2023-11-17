@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     # of course the number of days etc also plays an important role, becaus the more days - the more chance for storage to be useful ...
 
-    configuration.number_of_scenarios = 10
+    configuration.number_of_scenarios = 5
     configuration.min_storage_size_in_kwh = 0
     configuration.max_storage_size_in_kwh = 100
     configuration.min_number_of_modules = 0
