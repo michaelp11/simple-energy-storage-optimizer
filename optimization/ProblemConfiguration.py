@@ -2,7 +2,7 @@
 
 class ProblemConfiguration:
     def __init__(self):
-        self.watts_per_module = 800
+        self.max_watts_per_module = 800
         self.area_per_module_in_m2 = 1.2
         self.price_per_module_in_euro = 670
         self.max_number_of_modules = 100
@@ -12,5 +12,6 @@ class ProblemConfiguration:
         self.min_storage_size_in_kwh = 0
         self.max_storage_size_in_kwh = 1000
 
-        self.number_of_scenarios = 100
+        self.number_of_scenarios = 10
 
+        self.number_of_days = 365
